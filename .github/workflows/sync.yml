@@ -1,8 +1,7 @@
 name: Upstream Sync
 
 on:
-  schedule:
-    - cron: "0 */6 * * *" # run every 6 hours
+  #JC run only when triggered manually
   workflow_dispatch:
 
 permissions:
